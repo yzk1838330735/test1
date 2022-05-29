@@ -7,6 +7,15 @@ public class Person {
     private String count;
     private Integer mix;
     private String aaa;
+    private String bbb;
+
+    public String getBbb() {
+        return bbb;
+    }
+
+    public void setBbb(String bbb) {
+        this.bbb = bbb;
+    }
 
     public String getAaa() {
         return aaa;

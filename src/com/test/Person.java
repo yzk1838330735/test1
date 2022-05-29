@@ -6,6 +6,15 @@ public class Person {
     private Integer age;
     private String count;
     private Integer mix;
+    private String aaa;
+
+    public String getAaa() {
+        return aaa;
+    }
+
+    public void setAaa(String aaa) {
+        this.aaa = aaa;
+    }
 
     public String getCount() {
         return count;

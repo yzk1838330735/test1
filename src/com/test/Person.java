@@ -8,6 +8,16 @@ public class Person {
     private Integer mix;
     private String aaa;
 
+    private String sss;
+
+    public String getSss() {
+        return sss;
+    }
+
+    public void setSss(String sss) {
+        this.sss = sss;
+    }
+
     public String getAaa() {
         return aaa;
     }

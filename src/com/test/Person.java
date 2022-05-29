@@ -5,6 +5,23 @@ public class Person {
     private String name;
     private Integer age;
     private String count;
+    private Integer mix;
+
+    public String getCount() {
+        return count;
+    }
+
+    public void setCount(String count) {
+        this.count = count;
+    }
+
+    public Integer getMix() {
+        return mix;
+    }
+
+    public void setMix(Integer mix) {
+        this.mix = mix;
+    }
 
     public Integer getId() {
         return id;
